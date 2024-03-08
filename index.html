@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Suspicious Website Checker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    body{
+    place-items: center;
+    background: linear-gradient(to bottom, #213695, #160c62 90%);
+    max-width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: 10%;
+
+}
+h1{
+    color: white;
+    justify-content: center;
+}
+.sam{
+    align-content: center;
+
+}
+input{
+    background: white;
+    flex: 1;
+    margin-top: 50px;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 15px;
+    height: 3px;
+    width: 100%;
+    max-width: 500px;
+}
+button{
+    display:inline-block;
+    background: hsl(177, 93%, 45%);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 8px;
+    border-radius: 10px;
+}
+</style>
+<body>
+    <h1>Web Link Checker</h1>
+    <form class="sam" method="post">
+        <input type="text" name="website_url" placeholder="Enter website URL" required>
+        <button type="submit">Check</button>
+    </form>
+</body>
+</html>
